@@ -1,8 +1,26 @@
 aid: passes
 name: Passes
-description: 'Passes is a company surfaced as a portfolio company of bond-capital, multicoin-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: creator. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Passes is a creator monetization and accelerator platform founded in
+  2022 by Lucy Guo and headquartered in Los Angeles. Creators use Passes to build
+  direct, paid relationships with their audiences through subscriptions, paid DMs,
+  livestreams, one-on-one video calls, merchandise, automated message sequences, and
+  instant payouts, while keeping 90% of what they earn. Backed by Bond Capital and
+  Multicoin Capital, the company rebranded in 2026 as a creator accelerator. Passes
+  does not currently publish a public developer API; this profile captures its real
+  public web surface — llms.txt, security.txt, mobile deep-link association files,
+  and domain-security posture — harvested by the API Evangelist enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.passes.com/assets/open-graph/1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/passes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Creator
+- Creator Economy
+- Monetization
+- Subscriptions
+- Payments
+- Content
+- Social Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,30 @@ maintainers:
 common:
 - type: Website
   url: https://passes.com
+- type: Support
+  url: https://www.passes.com/help
+- type: SignUp
+  url: https://www.passes.com/signup
+- type: Login
+  url: https://www.passes.com/login
+- type: TermsOfService
+  url: https://www.passes.com/term
+- type: PrivacyPolicy
+  url: https://www.passes.com/privacy
+- type: LLMsTxt
+  url: llms/passes-llms.txt
+- type: WellKnown
+  url: well-known/passes-well-known.yml
+- type: SecurityTxt
+  url: well-known/passes-security.txt
+- type: VulnerabilityDisclosure
+  url: security/passes-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.passes.com/help/bugs
+- type: DomainSecurity
+  url: security/passes-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

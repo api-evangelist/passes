@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.passes.com/.well-known/
+host: https://www.passes.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: passes-security.txt
+- path: /.well-known/apple-app-site-association
+  status: 200
+  file: passes-apple-app-site-association.json
+- path: /.well-known/assetlinks.json
+  status: 200
+  file: passes-assetlinks.json
+- path: /.well-known/openid-configuration
+  status: 200
+  note: SPA catch-all (Next.js /[username]/[post_id]) — not a real OIDC document
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  note: SPA catch-all — not a real RFC 8414 authorization-server document
+- path: /.well-known/api-catalog
+  status: 200
+  note: SPA catch-all — not a real RFC 9727 api-catalog document
+- path: /.well-known/ai-plugin.json
+  status: 200
+  note: SPA catch-all — not a real ai-plugin manifest

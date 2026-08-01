@@ -1,0 +1,29 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.passesstaging.app",
+      "sha256_cert_fingerprints": [
+        "06:10:0D:D8:BF:6D:FB:6C:E1:0C:A7:62:5E:42:D1:70:71:90:2C:8B:33:AE:47:07:AF:F7:76:B3:6C:F3:8F:9F",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.passes.app",
+      "sha256_cert_fingerprints": [
+        "35:25:A6:F5:73:DF:56:F6:72:18:33:F2:E8:DC:C2:BC:39:BB:13:FA:A5:93:0B:42:69:0B:AA:C9:77:86:DE:91"
+      ]
+    }
+  }
+]

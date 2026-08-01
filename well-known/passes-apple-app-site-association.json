@@ -1,0 +1,25 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "UF7MBAZ4V3.com.passes.app",
+          "UF7MBAZ4V3.com.passes-staging.app"
+        ],
+        "components": []
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "UF7MBAZ4V3.com.passes-staging.app",
+      "UF7MBAZ4V3.com.passes.app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "UF7MBAZ4V3.com.passes-staging.app",
+      "UF7MBAZ4V3.com.passes.app"
+    ]
+  }
+}

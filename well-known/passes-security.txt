@@ -1,0 +1,6 @@
+Contact: mailto:security@passes.com
+Preferred-Languages: en
+Canonical: https://www.passes.com/.well-known/security.txt
+Policy: https://www.passes.com/help/bugs
+Hiring: https://www.passes.com/careers
+Expires: 2027-01-01T05:00:00.000Z
