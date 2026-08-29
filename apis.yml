@@ -9,6 +9,17 @@ description: 'Passes is a creator monetization and accelerator platform founded 
   does not currently publish a public developer API; this profile captures its real
   public web surface — llms.txt, security.txt, mobile deep-link association files,
   and domain-security posture — harvested by the API Evangelist enrichment pipeline.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
