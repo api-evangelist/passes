@@ -51,7 +51,7 @@ tags:
 - Subscription
 - Payments
 - Content
-- Social-Media
+- Social Media
 tags_raw:
 - Company
 - Creator
@@ -61,6 +61,7 @@ tags_raw:
 - Payments
 - Content
 - Social Media
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
